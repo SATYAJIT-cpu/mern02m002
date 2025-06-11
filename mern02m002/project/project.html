@@ -3,188 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Biccas - SaaS Landing Page</title>
-  <link rel="stylesheet" href="Project.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <title>Biccas Landing Page</title>
+  <link rel="stylesheet" href="project.css" />
 </head>
 <body>
-
-  <header>
-    <div class="logo">Biccas</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Product</a>
-      <a href="#">FAQ</a>
-      <a href="#">Blog</a>
-      <a href="#">Login</a>
-    </nav>
-    <button class="btn-signup">Sign Up</button>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Biccas</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="auth">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+    </div>
   </header>
 
   <section class="hero">
-    <div class="hero-text">
-      <h1>We’re here to Increase your Productivity</h1>
-      <p>Let’s make your work more organized and easy using the Taskio Dashboard with many of the latest features managing daily work.</p>
-      <div class="hero-buttons">
-        <button class="btn-primary">Try free trial</button>
-        <button class="btn-secondary">View Demo</button>
+    <div class="container">
+      <div class="hero-text">
+        <h2>We're here to Increase your Productivity</h2>
+        <p>Let’s make your work more organized and easy using the Taskio Dashboard.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn">Try Free Trial</a>
+          <a href="#" class="link">View Demo</a>
+        </div>
       </div>
-    </div>
-    <div class="hero-image">
-    <img src="charlie-green-3JmfENcL24M-unsplash.png" alt="Hero Illustration" width="400" height="578">
-
-
+      <div class="hero-image">
+        <img src="your-image.jpg" alt="Dashboard preview" />
+      </div>
     </div>
   </section>
 
-  <section class="trusted">
-    <h2>More than 25,000 teams use Collabs</h2>
-    <div class="logos">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Unsplash_logo.svg" alt="Unsplash" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Notion_app_logo.png" alt="Notion" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Intercom_Logo.png" alt="Intercom" />
-<img src="https://seeklogo.com/images/D/descript-logo-7BA9FBA292-seeklogo.com.png" alt="Descript" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Grammarly_Logo.png" alt="Grammarly" />
-
-    </div>
-  </section>
-
-  <section class="support">
-    <div class="support-left">
-      <h2>How we support our<br>partner all over the world</h2>
-      <p>SaaS becomes a common delivery model for many business applications, including office software, messaging software, and management tools.</p>
-      <div class="ratings">
-        <div>
-          ⭐⭐⭐⭐⭐ <br/>
-          <strong>4.9 / 5</strong> rating <br/> Databricks
-        </div>
-        <div>
-          ⭐⭐⭐⭐⭐ <br/>
-          <strong>4.8 / 5</strong> rating <br/> Capterra
-        </div>
+  <section class="brands">
+    <div class="container">
+      <p>More than 25,000 teams use Collabs</p>
+      <div class="logos">
+        <img src="unsplash.svg" alt="Unsplash" />
+        <img src="notion.svg" alt="Notion" />
+        <img src="intercom.svg" alt="Intercom" />
+        <img src="descript.svg" alt="Descript" />
+        <img src="grammarly.svg" alt="Grammarly" />
       </div>
-    </div>
-    <div class="support-right">
-      <div class="feature"><strong>✓ Publishing</strong><br/>Create, collaborate and publish your content</div>
-      <div class="feature"><strong>✓ Analytics</strong><br/>Analyze performance and create reports</div>
-      <div class="feature"><strong>✓ Engagement</strong><br/>Engage with your audience instantly</div>
     </div>
   </section>
 
   <section class="features">
-    <div class="features-header">
-      <h2>Our Features you can get</h2>
-      <p>We offer a variety of interesting features that help increase productivity at work.</p>
-      <button class="btn-primary">Get Started</button>
+    <div class="container">
+      <h2>How we support our partner all over the world</h2>
+      <div class="grid-3">
+        <div>
+          <h3>Publishing</h3>
+          <p>Plan, collaborate, and publish your content.</p>
+        </div>
+        <div>
+          <h3>Analytics</h3>
+          <p>Analyze your performance and reports.</p>
+        </div>
+        <div>
+          <h3>Engagement</h3>
+          <p>Navigate and engage with your audience.</p>
+        </div>
+      </div>
     </div>
-    <div class="features-grid">
-      <div class="feature-box">
-        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Feature" />
+  </section>
 
-        <h3>Collaboration Teams</h3>
-        <p>Handle projects together with team virtually</p>
-      </div>
-      <div class="feature-box">
-        <img src="https://i.imgur.com/Y5OBlYh.png" alt="Cloud">
-        <h3>Cloud Storage</h3>
-        <p>Don’t worry about storage up to 1TB</p>
-      </div>
-      <div class="feature-box">
-        <img src="https://i.imgur.com/mcfbCo2.png" alt="Analytics">
-        <h3>Daily Analytics</h3>
-        <p>Get useful insights to improve daily workflow</p>
+  <section class="features-list">
+    <div class="container">
+      <h2>Our Features You Can Get</h2>
+      <div class="grid-3">
+        <div>
+          <h3>Collaboration Teams</h3>
+          <p>Handle projects virtually with teams.</p>
+        </div>
+        <div>
+          <h3>Cloud Storage</h3>
+          <p>Get up to 2 TB secure storage.</p>
+        </div>
+        <div>
+          <h3>Daily Analytics</h3>
+          <p>Get daily usage reports to improve.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="benefits">
-    <div class="benefits-left">
-      <h2>What Benefit Will You Get</h2>
+    <div class="container">
+      <h2>What Benefits Will You Get</h2>
       <ul>
-        <li>✓ Free consulting with expert</li>
-        <li>✓ Online banking & reporting</li>
-        <li>✓ Monthly investment reports</li>
-        <li>✓ Saving money for the future</li>
-        <li>✓ Secure online transaction</li>
+        <li>✔ Free Consulting with Experts</li>
+        <li>✔ Online Banking</li>
+        <li>✔ Monthly Investment Reports</li>
+        <li>✔ Save for the Future</li>
+        <li>✔ Online Transactions</li>
       </ul>
-    </div>
-    <div class="benefits-right">
-      <img src="Image/Rectangle.png" alt="Money Transfer">
     </div>
   </section>
 
   <section class="pricing">
-    <h2>Choose Plan That’s Right For You</h2>
-    <p>Choose the best plan. You can change anytime.</p>
-    <div class="billing-toggle">
-      <button class="active">Bill Monthly</button>
-      <button>Bill Yearly</button>
-    </div>
-    <div class="plans">
-      <div class="plan free">
-        <h3>Free</h3>
-        <p>$0 /mo</p>
-        <ul>
-          <li>✓ 2 Users</li>
-          <li>✓ 2 Files</li>
-          <li>✓ Public Share & Comments</li>
-          <li>✓ Chat Support</li>
-        </ul>
-        <button>Signup for free</button>
-      </div>
-      <div class="plan pro">
-        <h3>Pro</h3>
-        <p>$8 /mo</p>
-        <ul>
-          <li>✓ 4 Users</li>
-          <li>✓ All Apps</li>
-          <li>✓ Unlimited exports</li>
-          <li>✓ Folder collaboration</li>
-        </ul>
-        <button>Go to pro</button>
-      </div>
-      <div class="plan business">
-        <h3>Business</h3>
-        <p>$16 /mo</p>
-        <ul>
-          <li>✓ Everything in Pro</li>
-          <li>✓ Account Manager</li>
-          <li>✓ ISO Certification</li>
-          <li>✓ Co-conception soon</li>
-        </ul>
-        <button>Goto Business</button>
+    <div class="container">
+      <h2>Choose Plan That’s Right For You</h2>
+      <div class="toggle">
+        <button class="btn active">Bill Monthly</button>
+        <button class="btn">Bill Yearly</button>
       </div>
     </div>
   </section>
 
-  <section class="testimonial">
-    <h2>People are Saying About DoWhith</h2>
-    <blockquote>
-      “I am very helped by this E-wallet application, my days are very easy to use the application and it's very helpful in my life, I can pay at a glance.”
-      <cite>– Arik Zhenzie</cite>
-    </blockquote>
-    <form class="demo-form">
-      <h3>Get Started</h3>
-      <input type="email" placeholder="Enter your email" />
-      <textarea placeholder="Message"></textarea>
-      <button type="submit">Request Demo</button>
-    </form>
-  </section>
-
-  <footer>
-    <div class="footer-logo">Biccas</div>
-    <div class="footer-links">
-      <div>
-        <h4>Support</h4>
-        <p>Help center<br/>Account support</p>
-      </div>
-      <div>
-        <h4>Product</h4>
-        <p>Features<br/>Integrations</p>
-      </div>
+  <footer class="footer">
+    <div class="container">
+      <p>©️ 2025 Biccas. All rights reserved.</p>
     </div>
-    <p class="copyright">©️ 2025 Biccas Inc. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
